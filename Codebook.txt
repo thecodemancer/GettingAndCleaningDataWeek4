@@ -4,19 +4,98 @@ The new data set is located in my_data.txt.
 This data set contains the average of each variable for each activity and each subject (like a SQL GROUP BY).
 
 # Subject
- The Test subject
+The Test subject
  
 # Activity Labels
- WALKING
- WALKING_UPSTAIRS
- WALKING_DOWNSTAIRS
- SITTING
- STANDING
- LAYING
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
 
 # Features Labels
-The following features (left-side) were changed to variables (right-side) to better described the terms more clearly:
+The following features are used for this assignment
 
+TimeBodyAccelerometerMean...X                    
+TimeBodyAccelerometerMean...Y                    
+TimeBodyAccelerometerMean...Z                    
+TimeBodyAccelerometerSTD...X                     
+TimeBodyAccelerometerSTD...Y                     
+TimeBodyAccelerometerSTD...Z                     
+TimeGravityAccelerometerMean...X                 
+TimeGravityAccelerometerMean...Y                 
+TimeGravityAccelerometerMean...Z                 
+TimeGravityAccelerometerSTD...X                  
+TimeGravityAccelerometerSTD...Y                  
+TimeGravityAccelerometerSTD...Z                  
+TimeBodyAccelerometerJerkMean...X                
+TimeBodyAccelerometerJerkMean...Y                
+TimeBodyAccelerometerJerkMean...Z                
+TimeBodyAccelerometerJerkSTD...X                 
+TimeBodyAccelerometerJerkSTD...Y                 
+TimeBodyAccelerometerJerkSTD...Z                 
+TimeBodyGyroscopeMean...X                        
+TimeBodyGyroscopeMean...Y                        
+TimeBodyGyroscopeMean...Z                        
+TimeBodyGyroscopeSTD...X                         
+TimeBodyGyroscopeSTD...Y                         
+TimeBodyGyroscopeSTD...Z                         
+TimeBodyGyroscopeJerkMean...X                    
+TimeBodyGyroscopeJerkMean...Y                    
+TimeBodyGyroscopeJerkMean...Z                    
+TimeBodyGyroscopeJerkSTD...X                     
+TimeBodyGyroscopeJerkSTD...Y                     
+TimeBodyGyroscopeJerkSTD...Z                     
+TimeBodyAccelerometerMagnitudeMean..             
+TimeBodyAccelerometerMagnitudeSTD..              
+TimeGravityAccelerometerMagnitudeMean..          
+TimeGravityAccelerometerMagnitudeSTD..           
+TimeBodyAccelerometerJerkMagnitudeMean..         
+TimeBodyAccelerometerJerkMagnitudeSTD..          
+TimeBodyGyroscopeMagnitudeMean..                 
+TimeBodyGyroscopeMagnitudeSTD..                  
+TimeBodyGyroscopeJerkMagnitudeMean..             
+TimeBodyGyroscopeJerkMagnitudeSTD..              
+FrequencyBodyAccelerometerMean...X               
+FrequencyBodyAccelerometerMean...Y               
+FrequencyBodyAccelerometerMean...Z               
+FrequencyBodyAccelerometerSTD...X                
+FrequencyBodyAccelerometerSTD...Y                
+FrequencyBodyAccelerometerSTD...Z                
+FrequencyBodyAccelerometerMeanFreq...X           
+FrequencyBodyAccelerometerMeanFreq...Y           
+FrequencyBodyAccelerometerMeanFreq...Z           
+FrequencyBodyAccelerometerJerkMean...X           
+FrequencyBodyAccelerometerJerkMean...Y           
+FrequencyBodyAccelerometerJerkMean...Z           
+FrequencyBodyAccelerometerJerkSTD...X            
+FrequencyBodyAccelerometerJerkSTD...Y            
+FrequencyBodyAccelerometerJerkSTD...Z            
+FrequencyBodyAccelerometerJerkMeanFreq...X       
+FrequencyBodyAccelerometerJerkMeanFreq...Y       
+FrequencyBodyAccelerometerJerkMeanFreq...Z       
+FrequencyBodyGyroscopeMean...X                   
+FrequencyBodyGyroscopeMean...Y                   
+FrequencyBodyGyroscopeMean...Z                   
+FrequencyBodyGyroscopeSTD...X                    
+FrequencyBodyGyroscopeSTD...Y                    
+FrequencyBodyGyroscopeSTD...Z                    
+FrequencyBodyGyroscopeMeanFreq...X               
+FrequencyBodyGyroscopeMeanFreq...Y               
+FrequencyBodyGyroscopeMeanFreq...Z               
+FrequencyBodyAccelerometerMagnitudeMean..        
+FrequencyBodyAccelerometerMagnitudeSTD..         
+FrequencyBodyAccelerometerMagnitudeMeanFreq..    
+FrequencyBodyAccelerometerJerkMagnitudeMean..    
+FrequencyBodyAccelerometerJerkMagnitudeSTD..     
+FrequencyBodyAccelerometerJerkMagnitudeMeanFreq..
+FrequencyBodyGyroscopeMagnitudeMean..            
+FrequencyBodyGyroscopeMagnitudeSTD..             
+FrequencyBodyGyroscopeMagnitudeMeanFreq..        
+FrequencyBodyGyroscopeJerkMagnitudeMean..        
+FrequencyBodyGyroscopeJerkMagnitudeSTD..         
+FrequencyBodyGyroscopeJerkMagnitudeMeanFreq..    
                                                                                                       
 # Refer to document features_info.txt for more information on the data.
  
