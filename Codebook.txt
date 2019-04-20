@@ -1,0 +1,28 @@
+# Codebook #
+The test data set and training data set were combined by subject, features, and activity given in the original dataset.
+The new data set is located in my_data.txt.
+This data set contains the average of each variable for each activity and each subject (like a SQL GROUP BY).
+
+# Subject
+ The Test subject
+ 
+# Activity Labels
+ WALKING
+ WALKING_UPSTAIRS
+ WALKING_DOWNSTAIRS
+ SITTING
+ STANDING
+ LAYING
+
+# Features Labels
+The following features (left-side) were changed to variables (right-side) to better described the terms more clearly:
+
+                                                                                                      
+# Refer to document features_info.txt for more information on the data.
+ 
+          
+
+                
+                  
+     
+             
